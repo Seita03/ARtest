@@ -47,7 +47,7 @@ function getStream(video){
     return navigator.mediaDevices.getUserMedia({
         audio: false,
         video: {
-            facingMode: "environment"
+            facingMode: "user"
         }
     })
     .then((stream)=>{
