@@ -1,0 +1,7 @@
+.overlay{
+    position: relative;
+}
+.overlay > *{
+    display: block;
+    position: absolute;
+}
